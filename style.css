@@ -42,6 +42,12 @@ li.horizontal{display: block;
     padding: 10px 16px;
     float: left}
 
+li.active{display: block;
+    background: rgb(68, 27, 27);
+    text-decoration: none;
+    padding: 10px 16px;
+    float: left}
+
 li a    {display: block;
     color: rgb(209, 185, 185);
     text-decoration: none;
@@ -50,7 +56,7 @@ li a    {display: block;
 li a:hover  {background-color:rgba(85, 85, 85, 0.733);
     color: rgb(221, 126, 126)}
 
-li a:active {background-color: red;
+li a.active {background-color: red;
     color: rgb(221, 126, 126)}
 
 h2      {color: rgb(204, 203, 203);
@@ -61,7 +67,7 @@ h4      {color:rgb(209, 204, 204)}
 p       {color: white;
         display: inline}
 
-li a.active{background-color: black;
+li a.active{background-color: rgb(119, 27, 27);
         color: rgb(221, 126, 126)}
 
 blockquote  {color:rgb(189, 178, 178);

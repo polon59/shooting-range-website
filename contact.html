@@ -10,9 +10,13 @@
         var email = document.getElementById("email").value;
       
         if (re.test(email)) {
-          document.getElementById("result").innerHTML = "dobre";
+          document.getElementById("result").innerHTML = "Your message has been sent successfully.";
+          document.getElementById("result").style.color = "green";
+          document.getElementById("resetButton").click();
         } else {
-            document.getElementById("result").innerHTML = "złe";
+            document.getElementById("result").innerHTML = "Your e-mail adress is not valid.";
+            document.getElementById("result").style.color = "red";
+
         }
       }
     </script>
@@ -58,10 +62,10 @@
             Email adress:<br>
             <input id="email" type="text" name="email" value="fff"><br>
 
-            <input type="reset" value = "clear">
+            <input id="resetButton" type="reset" value = "clear">
             <input type="button" onclick="validate()" value = "validate">
             <br>
-            <h2 id='result'>ddd</h2>
+            <h2 id='result'></h2>
           </form>
             
     </div>

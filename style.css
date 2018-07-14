@@ -1,0 +1,110 @@
+body    {background-image:url('images/background2.jpg');
+        background-repeat: repeat-y;
+        font-family: serif;
+        margin: 0}
+
+h1      {color:white;
+        text-align:left;
+        font-size:150%;
+        background-color:rgba(0, 0, 0, 0.37);
+        border:1px solid rgb(68, 66, 66);}
+
+ul      {list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(14, 13, 13,1.0);
+        position: fixed;
+        height: 100%;
+        width: 15%;
+        overflow: auto;
+        border: 1px solid rgb(226, 178, 178);}
+
+ul.horizontal{list-style-type: none;
+    margin-left: 15.1%;
+    padding: 0;
+    background-color: rgba(14, 13, 13,1.0);
+    position: fixed;
+    width: 85%;
+    height: 7%;
+    overflow: hidden;
+    z-index: 1;
+    }
+
+li.horizontalRight{display: block;
+    color: rgb(209, 185, 185);
+    text-decoration: none;
+    padding: 10px 15px;
+    float: right}
+
+li.horizontal{display: block;
+    color: rgb(209, 185, 185);
+    text-decoration: none;
+    padding: 10px 16px;
+    float: left}
+
+li a    {display: block;
+    color: rgb(209, 185, 185);
+    text-decoration: none;
+    padding: 8px 16px;}
+
+li a:hover  {background-color:rgba(85, 85, 85, 0.733);
+    color: rgb(221, 126, 126)}
+
+li a:active {background-color: red;
+    color: rgb(221, 126, 126)}
+
+h2      {color: gray;
+    font-size: 130%}
+
+h4      {color:rgb(172, 169, 169)}
+
+p       {color: white;
+        display: inline}
+
+li a.active{background-color: black;
+        color: rgb(221, 126, 126)}
+
+blockquote  {color:rgb(168, 158, 158);
+        border: 1px solid grey;
+        padding: 15px;
+        margin: 10px;}
+
+img     {width:100px;
+        height:50px;
+        border: 1px solid grey;
+        }
+
+.logo   {width: 160px;
+        height: 100px;
+        display: inline-block}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    width: 360px;
+    height: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+
+.wiewimage{width:358px;height:154px;
+    border: 1px solid grey;
+    display: inline-block}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: rgb(92, 92, 91)
+}
+
+div     {background-color:  rgba(14, 13, 13,0.4);}

@@ -121,7 +121,7 @@ img     {width:100px;
 }
 
 div     {background-color:  rgba(14, 13, 13, 0.781);
-        box-shadow: 10px 10px, 10px, red }
+        box-shadow: 10px 10px, 10px, red;}
 
 form    {color: whitesmoke}
 
@@ -168,6 +168,7 @@ textarea {background-color: black;
         -ms-transform: translate(-50%, -50%);
         white-space: nowrap;
         text-align: center;
+        
         }
 
 
